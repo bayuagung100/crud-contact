@@ -1,0 +1,1 @@
+export const uAPI = 'https://simple-contact-crud.herokuapp.com'; 
