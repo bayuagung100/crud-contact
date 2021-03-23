@@ -113,43 +113,6 @@ class EditContact extends Component {
 
     componentDidMount() {
         this.getData()
-        // "data": [
-        //     {
-        //       "id": "93ad6070-c92b-11e8-b02f-cbfa15db428b",
-        //       "firstName": "Bilbo",
-        //       "lastName": "Baggins",
-        //       "age": 111,
-        //       "photo": "http://vignette1.wikia.nocookie.net/lotr/images/6/68/Bilbo_baggins.jpg/revision/latest?cb=20130202022550"
-        //     },
-        //     {
-        //       "id": "b3abd640-c92b-11e8-b02f-cbfa15db428b",
-        //       "firstName": "Luke",
-        //       "lastName": "Skywalker",
-        //       "age": 20,
-        //       "photo": "N/A"
-        //     },
-        //     {
-        //       "firstName": "asd",
-        //       "lastName": "asd",
-        //       "age": 20,
-        //       "photo": "qw",
-        //       "id": "194a1730-8bf0-11eb-9558-732a44de4044"
-        //     },
-        //     {
-        //       "firstName": "asd",
-        //       "lastName": "asd",
-        //       "age": 1,
-        //       "photo": "dsa",
-        //       "id": "5291c970-8bf0-11eb-9558-732a44de4044"
-        //     },
-        //     {
-        //       "firstName": "bayu",
-        //       "lastName": "agung123",
-        //       "age": 22,
-        //       "photo": "edited",
-        //       "id": "63a5edd0-8bf1-11eb-9558-732a44de4044"
-        //     }
-        //   ]
     }
     render() {
         if (this.state.redirect) {
